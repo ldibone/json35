@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Grocery Online Store</title>
+</head>
+<body>
+  <header>
+    <h1>Grocery Online Store</h1>
+  </header>
+  
+    <section id="filter-bar">
+    <label for="category-filter">Category:</label>
+    <select id="category-filter" onchange="filterProducts()">
+      <option value="all">All Categories</option>
+      <option value="fruits">Fruits</option>
+      <option value="vegetables">Vegetables</option>
+      <option value="meet">Meet</option>
+      </select>
+  </section>
+
+  <section id="product-list">
+
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
